@@ -1,0 +1,31 @@
+<!--
+hw01_20201653053
+컴퓨터과학과 20학번 전희망
+1) 4개 구역으로 나누어 배경 color를 할당하는 코드
+2) 처음 실행시 canvas는 500 * 500 사이즈이며, 
+windows가 resize될 떄 1:1 비율이 유지되어야 함
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /*스크롤바 제거*/
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+    <title>hw01_2020163053</title>
+</head>
+<body>
+    <canvas id="glCanvas" width="500" height="500"></canvas>
+    <script src="hw01_2020163053.js"></script>
+</body>
+</html>
