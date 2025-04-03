@@ -40,8 +40,8 @@ function initWebGL() {
 }
 
 async function initShader() {
-    const vertexShaderSource = await readShaderFile('shVert.glsl');
-    const fragmentShaderSource = await readShaderFile('shFrag.glsl');
+    const vertexShaderSource = await readShaderFile('shVert_02.glsl');
+    const fragmentShaderSource = await readShaderFile('shFrag_02.glsl');
     shader = new Shader(gl, vertexShaderSource, fragmentShaderSource);
 }
 
